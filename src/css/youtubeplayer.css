@@ -1,0 +1,41 @@
+.video-panel {
+    background:#f2f2f2;
+    transition-duration: .5s;
+}
+
+.video-detail { 
+    background:#fff;
+    border: 1px solid rgba(0,0,0,.125);
+}
+
+.video-detail .details .detail-title {
+    color:#a144f7;
+    font-weight:500;
+}
+
+.list-group .playlist-item {
+    border-radius: 0;
+    cursor:pointer; 
+    transition-duration: .25s;
+}
+.list-group .playlist-item:hover {
+    background:#ffb337;
+    color:#fff;
+}
+
+.list-group .playlist-item .media-object {
+    width:100%;
+}
+
+.list-group .media-heading { font-size:.85rem; }
+
+.ytSearchField input { min-width:100%; }
+
+.fadeIn-enter {
+opacity: 0;
+transition: 0.3s ease-in-out all;
+}
+
+.fadeIn-enter.fadeIn-enter-active {
+opacity: 1;
+}

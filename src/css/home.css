@@ -1,0 +1,11 @@
+.jumbotron {
+    background:#f2f2f2 url('../images/Accenture-Electric-Purple-Logo-marquee.png') right -80px center no-repeat;
+    background-size:60%;
+    border-radius: 0;
+}
+
+.jumbotron .display-4 {
+    line-height:1em;
+}
+
+.jumbotron .lead { line-height:1em; }

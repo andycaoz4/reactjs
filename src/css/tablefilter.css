@@ -1,0 +1,47 @@
+.filter-container {
+    position:relative;
+    display:block;
+}
+
+.filter-container .clear-filter {
+    position: absolute;
+    right:5px;
+    top:4px;
+}
+
+.pagination {
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.pagination li {
+    margin:0 2px;
+    font-weight:400;
+    cursor:pointer;
+}
+
+.pagination li:hover {
+    color:#a144f7;
+}
+
+.pagination li.active {
+    color:#a144f7;
+}
+
+.filterable-table-container .header-row select.form-control:not([size]):not([multiple]) {
+    height:38px;
+    width:50%;
+}
+
+.fa.fa-sort { margin-left:5px; }
+
+.table-lables {
+    color:#a144f7;
+}
+
+.record-count { text-align:right !important; line-height:38px; }
+
+.age span { margin-left:5px; color:#ff1a19; }
+
+.table-panel { border-bottom:1px solid #666; }
+.recharts-wrapper, .recharts-surface { width:100% !important; }

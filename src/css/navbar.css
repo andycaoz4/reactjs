@@ -1,0 +1,19 @@
+.navbar {
+    border-bottom: 1px solid #ccc;
+    background:#f2f2f2;
+}
+.nav-logo {
+    background: url('../images/logo.png') center center no-repeat;
+    background-size:contain;
+    display:block;
+    min-width:100px;
+    height:30px;
+}
+
+.navbar .navbar-brand { padding-top:0;}
+.navbar .nav-item { border-left:1px solid #ccc; }
+.navbar .nav-item:nth-child(1) { border-left:none;  }
+
+@media all and (max-width:575px) {
+    .navbar .nav-item { border-left:none; }
+}

@@ -1,0 +1,49 @@
+.top-panel {
+    background:#f2f2f2 url('../images/Accenture-Electric-Purple-Logo-marquee.png') right center no-repeat;
+    background-size:60%;
+    border-radius: 0;
+}
+
+.top-panel h1 { line-height:1em; }
+
+.box-link {
+    background:#000;
+    color:#fff;
+    min-height:100px;
+    align-self: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    font-weight:bold;
+    transition-duration: .5s;
+}
+
+.box-link:hover {
+    color:#fff;
+    text-decoration: none;
+}
+
+.box1 { background:#ffb337; }
+.box1:hover { background:#d97a14; }
+
+.box2 { background:#36aaf7; }
+.box2:hover { background:#0c67a3; }
+
+.box3 { background:#a144f7; }
+.box3:hover { background:#620db2; }
+
+.box4 { background:#ff1a19; }
+.box4:hover { background:#c60605; }
+
+.box5 { background:#00d43b; }
+.box5:hover { background:#00ac30; }
+
+.box8 { background:#db0a5b; }
+.box8:hover { background:#b9094e; }
+
+.box7 { background:#dd2bc8; }
+.box7:hover { background:#ae0099; }
+
+.box6 { background:#004dff; }
+.box6:hover { background:#0031a1; }
