@@ -23,8 +23,7 @@ class SearchBar extends React.Component {
     render() {
         return (
             <div className="ytSearchField zmb-24 row">
-                <span className="zmr-14">Search:</span><input class
-                value={this.state.term} onChange={this.onInputChange} />
+                <span className="zmr-14">Search:</span><input value={this.state.term} onChange={this.onInputChange} />
             </div>  
         );
     }

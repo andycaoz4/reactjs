@@ -7,7 +7,7 @@ import VideoDetail from './ytplayer/video_detail';
 import '../../css/bootstrap.css';
 import '../../css/youtubeplayer.css';
 
-const API_KEY = 'AIzaSyAcnNaPwNaM8bbX2aebAGRGjm2K7xEjGcQ';
+const API_KEY = 'AIzaSyDbRuubhFYgKwRHA1hJgP_yYNYdYDS-lxM';
 
 class Youtubeplayer extends Component {
     state = {

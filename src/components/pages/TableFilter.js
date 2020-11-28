@@ -75,8 +75,8 @@ const fields = [
 ];
 
 class TableFilter extends Component {
-    constructor(props) {
-        super(props);
+    constructor() {
+        super();
         this.state = {
             stockDataSource: []
         }
@@ -235,7 +235,7 @@ class TableFilter extends Component {
 }
 
 export default TableFilter;
-
+/*
 // incase testing api runs out of monthly quota, the below is manual data
 var sampledataresult = {
     "AAPL": {
@@ -4276,3 +4276,4 @@ var sampledataresult = {
       ]
     }
   }
+ */
